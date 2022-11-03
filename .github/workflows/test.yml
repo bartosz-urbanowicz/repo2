@@ -24,6 +24,6 @@ jobs:
       with:
         python-version: "3.10"
     - name: Run python application
-      run: test.py
-        python src/benchmark.py
+      run: |
+        python test.py
     
